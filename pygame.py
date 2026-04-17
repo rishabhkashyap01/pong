@@ -10,7 +10,7 @@ wn.tracer(0)
 score_a = 0
 score_b = 0
 
-#Paddle A
+#Paddle A and it's attributes
 paddle_a = turtle.Turtle()
 paddle_a.speed(0)
 paddle_a.shape("square")
@@ -18,7 +18,7 @@ paddle_a.color("white")
 paddle_a.shapesize(stretch_len=1,stretch_wid=5)
 paddle_a.penup()
 paddle_a.goto(-350,0)
-#Paddle B
+#Paddle B and it's attributes
 paddle_b = turtle.Turtle()
 paddle_a.speed(0)
 paddle_b.shape("square")
